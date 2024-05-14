@@ -14,3 +14,10 @@ https://cptcrunchy.medium.com/how-to-setup-a-temporary-public-url-for-localhost-
 After ngrok setup
 1. Ensure Dummy server is running
 2. open terminal and run `ngrok http 9090`
+
+## To change dummy response 
+1. Edit https://github.com/Siril-O/DummyHttpServer/blob/main/src/main/scala/Main.scala
+2. restart server
+
+Simple tutuorial for akkk http
+https://www.baeldung.com/scala/akka-http
